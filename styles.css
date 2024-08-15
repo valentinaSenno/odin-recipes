@@ -1,5 +1,14 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+#title {
+    border: 1px solid black;
+    text-align: center;
+    width: 300px;
+    padding: 5px;
+    margin: 30px auto;
 }
 
 h1 {
@@ -14,11 +23,14 @@ a {
 .header {
     background-color: bisque;
     text-align: center;
+    padding: 20px;
 }
 
 img {
-    width: 100%;
-    height: auto;
+    width: 600px;
+    height: auto; 
+    margin: 20px auto;
+    display: block;
 }
 
 ul {
@@ -27,4 +39,30 @@ font-style: italic;
 
 p {
     color: gray;
+}
+
+.list {
+    background-color: bisque;
+    width: 500px;
+    margin: 10px auto;
+    padding: 15px;
+}
+
+.desc, .ing, .steps {
+    margin: 40px 10px;
+}
+
+.ing {
+    border: 2px dashed bisque;
+    margin: 5px auto;
+    width: 600px;
+    padding: 2px 15px;
+}
+
+.steps li {
+    margin-bottom: 10px;
+}
+
+.steps {
+    margin-bottom: 50px;
 }
